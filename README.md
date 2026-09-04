@@ -84,6 +84,6 @@ In your own words:
 
 In your own words, what does each GitHub merge option do?
 
-- Create a merge commit
-- Squash and merge
-- Rebase and merge
+- Create a merge commit: combines the changes from the feature branch into the main branch with a new merge commit.
+- Squash and merge: combines all commits from the feature branch into a single commit before merging into the main branch.
+- Rebase and merge: reapplies the commits from the feature branch onto the main branch, creating a linear commit history.
