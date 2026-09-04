@@ -67,14 +67,18 @@ In one or two sentences each, what does each command do?
 - `git diff`: shows the differences between the working directory and the staging area.
 
 ### 1.7 Repository link
+[Repository Link](https://github.com/dhend595/lab03-exercises02)
 
 ### 1.8 Comparing approaches
 
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+    The nested-loop approach checks each element against every other element to find duplicates.
 - How does the set-based approach check for a duplicate?
+    The set-based approach uses a set to keep track of seen elements and checks for duplicates.
 - What is the runtime and memory trade-off of each?
+    The nested-loop approach has a higher time complexity (O(n^2)) but uses minimal extra memory. The set-based approach has a lower time complexity (O(n)) but requires additional memory to store the set.
 
 ### 1.9 Pull request merge options
 
